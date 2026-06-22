@@ -86,27 +86,27 @@ To guarantee you never overshoot your free trial credits, set up a hard budget t
 9.  **Feedback**: Direct pipeline to send feature suggestions or bugs directly to Microsoft's product team.
 
 # Key Services
-1.  # Virtual Machine (VM)
-2.  # App Services
-3.  # Storage Accounts
-4.  # Azure SQL Database
-5.  # Virtual Network (VNet)
-6.  # Load Balancer
+1.  *Virtual Machine (VM)*
+2.  *App Services*
+3.  *Storage Accounts*
+4.  *Azure SQL Database*
+5.  *Virtual Network (VNet)*
+6.  *Load Balancer*
 
 # Azure Free Tier Limits & Scope
 The Azure Free Account provides access to specific resources divided into three strict boundaries. Keeping deployments within these bounds ensures you avoid unexpected charges.  
 
-1. # The 30-Day Setup Period
+1. *The 30-Day Setup Period*
 **$200 Free Credit**: Automatically applied upon signup. Expires exactly 30 days after registration.  
 **Full Catalog Access**: Can be spent on almost any Azure product (except third-party Marketplace items).  
 
-2. # The 12-Month Popular Service Caps
+2. *The 12-Month Popular Service Caps*
 After your 30 days expire, you retain monthly allowances for over 20 popular services for 12 months, capped strictly at:  
 **Compute**: 750 hours/month of B1S, B2pts v2 (ARM), or B2ats v2 (AMD) Burstable VMs (Linux and Windows combined).  
 **Storage**: 5 GB of standard Blob storage + 5 GB of File storage.
 **Databases**: 250 GB of Azure SQL database storage per month + 750 hours of Flexible PostgreSQL/MySQL.
 
-3. # Always-Free Services
+3. *Always-Free Services*
 Over 55+ services remain free permanently, provided you do not exceed their monthly capacity triggers:  
 **Azure Functions**: 1 million serverless requests per month.  
 **App Services**: Up to 10 web, mobile, or API apps (F1 Free tier, sharing 1 GB storage).  
@@ -114,5 +114,23 @@ Over 55+ services remain free permanently, provided you do not exceed their mont
 
 *Important*: To prevent active services from being paused or deleted after day 30, you must manually upgrade your subscription to Pay-As-You-Go. You will only be billed if your active services surpass the monthly caps outlined above.
 
+# Project Dashboard Layout (My Dashboard)
+The images Screenshot (8).png and Screenshot (9).png shows a customized, private Azure Portal workspace designed for rapid deployment and quick resource discovery.
+1. # Resource Monitor & Status Pane
+   *Resources View*: Positioned on the left side, this tile tracks deployed assets. Currently, it displays "No resources to display",         indicating a clean slot ready for a new deployment.
+   *Auto-Refresh*: Configured to automatically refresh every 10 minutes to provide an up-to-date look at the environment infrastructure       status.
+   *Quick Shortcuts*: Features rapid access tiles at the bottom left for Service Health monitoring and the Azure Marketplace.
+
+2. # Learning & Getting Started Banners
+   *Azure Getting Started*: The top right panel features a shortcut to launch customized apps quickly using a "Create DevOps Starter"         wizard.
+   *Quickstarts + Tutorials*: A tall, structured repository on the right side dedicated to one-click deployment templates for core            infrastructure:
+   *Windows & Linux Virtual Machines (provisioning Server, SQL Server, Ubuntu, etc.)*
+   *App Services (deploying web apps via .NET, Java, Node.js, Python, PHP)*
+   *Functions (serverless event architecture)*
+   *SQL Database (managed relational databases)*
+3. # Navigation Controls
+   *Left-Hand Favorites Menu: Customized sidebar providing immediate shortcuts to structural pillars like Resource groups, App Services,      Virtual machines, Storage accounts, Virtual networks*.
+   *Top Command Bar: Provides direct administration capabilities for the dashboard itself, including tools to Edit, Share, Export, Clone,     or Delete the current layout views*.
+   
 
 
