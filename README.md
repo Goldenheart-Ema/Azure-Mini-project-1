@@ -76,13 +76,13 @@ To guarantee you never overshoot your free trial credits, set up a hard budget t
 
 # Portal Navigation Quick Start
 1.  **Home / Dashboard**: Your customizable landing page for quick access to resources and activity logs.
-2.  **All Services (Burger Menu)**: The full directory of Azures offerings, filterable by category.
+2.  **All Services (Burger Menu)**: The full directory of Azure offerings, filterable by category.
 3.  **Global search (Top Bar)**: The fastest way to find services, resources and documentation.
 4.  **Copilot**: An AI assistant to help you write scripts, optimize costs and troubleshoot infrastructure.
 5.  **Azure Cloud Shell (>_)**: A browser based terminal for managing resources via CLI or Powershell.
 6.  **Notification (Bell Icon)**: Real time status tracking for active deployments, resource updates and credit alerts.
 7.  **Settings (Gear Icon)**: Customize your portal layout, default directories, color themes and timeout periods.
-8.  **Support+Troubleshooting (? Icon)**: Access officila documentation, check azure service health or summit formal support tickets.
+8.  **Support+Troubleshooting (? Icon)**: Access official documentation, check azure service health or summit formal support tickets.
 9.  **Feedback**: Direct pipeline to send feature suggestions or bugs directly to Microsoft's product team.
 
 # Key Services
@@ -133,12 +133,19 @@ The images Screenshot (8).png and Screenshot (9).png shows a customized, private
    *Top Command Bar: Provides direct administration capabilities for the dashboard itself, including tools to Edit, Share, Export, Clone,     or Delete the current layout views*.
 
 # Identity Awareness
-   To access the Azure Active Directory and check the Role Based access Control:
+   To access the Azure Active Directory and check the Role Based Access Control:
    
-   1.   Scroll the bar on the left hand favorites menu to *Microsoft Entry ID*.
+   1.   Scroll the bar on the left-hand favorites menu to *Microsoft Entry ID*.
    2.   Click on *Microsoft Entry ID*.
    3.   When it opens, an overview opens up. Navigate to the *Manage* option.
    4.   Click *Manage*, and a dropdown menu opens.
-   5.   Navigate to *Roles and administration* and click. A new section opens up with an overview and there, you can see the                      documentation of Role Based Access Control (RBAC).  
+   5.   Navigate to *Roles and administration* and click. A new section opens with an overview, then you can see the                              documentation of Role Based Access Control (RBAC).  
+
+# Steps to Access Security & MFA Settings
+
+1. *Open Microsoft Entra ID*: Select Microsoft Entra ID from your left-hand favorites menu or search for it using the global top search bar.
+2. *Open Security Settings*: In the left navigation column for your directory, scroll down under the management options and click on Security.
+3. *Locate MFA Management*: This will open the Security | Getting started dashboard. From this view, navigate to the left menu pane under the Manage subsection and click on Multifactor authentication.
+4. *View MFA Dashboard*: You will arrive at the Multifactor authentication | Overview blade where you can check service requirements or activate premium identity protection trials.
 
 
