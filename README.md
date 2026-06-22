@@ -131,6 +131,14 @@ The images Screenshot (8).png and Screenshot (9).png shows a customized, private
 3. # Navigation Controls
    *Left-Hand Favorites Menu: Customized sidebar providing immediate shortcuts to structural pillars like Resource groups, App Services,      Virtual machines, Storage accounts, Virtual networks*.
    *Top Command Bar: Provides direct administration capabilities for the dashboard itself, including tools to Edit, Share, Export, Clone,     or Delete the current layout views*.
+
+# Identity Awareness
+   To access the Azure Active Directory and check the Role Based access Control:
    
+   1.   Scroll the bar on the left hand favorites menu to *Microsoft Entry ID*.
+   2.   Click on *Microsoft Entry ID*.
+   3.   When it opens, an overview opens up. Navigate to the *Manage* option.
+   4.   Click *Manage*, and a dropdown menu opens.
+   5.   Navigate to *Roles and administration* and click. A new section opens up with an overview and there, you can see the                      documentation of Role Based Access Control (RBAC).  
 
 
